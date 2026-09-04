@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Brasa {
+    width: 250px;
+    display: flex;
+    align-self: center;
+}
+.queijinho{
+    width: 300px;
+}
+.cabeçalho{
+    width: 100dvw;
+    height: 35dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: black;
+}
+.zona2{
+    padding: 50px;
+    width: 100dvw;
+    height: 65dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    color: #FFAE00;
+
+}
+.input1 {
+    background-color: #FFAE00;
+    margin: 12px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+.input1::placeholder {
+    color: black;
+    font-weight: bold;
+}
+.negrito{
+    font-size: small;
+    padding-right: 135px;
+    color: aliceblue;
+}
+.negrito2{
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+}
+.negrito2 a{
+    color: white;
+    text-decoration: none;
+}
+.botao1{
+    background-color: #FFAE00;
+    margin: 30px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.navegation{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    width: 100dvw;
+    height: 25dvh;
+    
+}
+
+.navegation a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navegation ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navegation ul li:hover{
+    color: #FFAE00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cardapioImg{
+    width: auto;
+    height: 25dvh;
+}
+
+h1 {
+    margin: 15px;
+    color: #ffb700;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nossosProdutos{
+    background-color: black;
+    width: 100dvw;
+    height: 20dvh;
+    flex-direction: column;
+    border-top: 2px #c4aa71 solid;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.zona2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.image-cardapio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.queijinhoProduto{
+    width: auto;
+    height: 90px;
+}
+.navegacaoProdutos {
+    /* margin-top: 90px; */
+    gap: 30%;
+    background-color: black;
+    color: white;
+    border: 0,3px solid white;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.cardapio{
+    display: flex;
+    justify-content: center;
+}
+.categorias{    
+    display: flex;
+    gap: 20px;
+}
+.categorias a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navegacaoProdutos:hover{
+    color: black;
+    cursor: pointer;
+    border: 1px solid #FFAE00;
+    background-color: #FFAE00;
+    font-weight: bold;
+}
+.destaque{
+    background-color: black;
+}
+.info{
+    width: 75dvw;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    background-color: black;
+    color: white;
+    border: 2px  #FFAE00 solid;
+    border-radius: 20px;
+    padding: 4px 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.zona{
+    background-color: black;
+}
+.info button{
+    background-color: #FFAE00;
+    color: black;
+    border-radius: 6px;
+    padding: 4px 12px;
+    height: 32px;
+    font-weight: light;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    align-self: end;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    
+}
+.pedirAgora:hover{
+    color: black;
+    cursor: pointer;
+    border: 1px solid #FFAE00;
+    background-color: #FFAE00;
+    font-weight: bold;
+}
+.burguerDoMes{
+    border: 2px  #FFAE00 solid;
+    border-radius: 20px;
+    display: flex;
+    width: auto;
+    height: 150px;
+    flex-wrap: nowrap;
+}
+.letras{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.imgLanche{
+    border: 2px  #FFAE00 solid;
+    border-radius: 20px;
+    display: flex;
+    width: auto;
+    height: 150px;
+    flex-wrap: nowrap;
+}
+.main{
+    display: flex;
+}
+.lanches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+}
+.card-lanche{
+    flex-direction: column;
+    border: 2px  #FFAE00 solid;
+    border-radius: 20px;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+}
+.preco{
+    color: #FFAE00;
+    font-weight: bolder;
+}
+.pedirAgora a{
+    color: black;
+    text-decoration: none;
+}
+.queijinho-do-mal{
+    width: auto;
+    height: 90px;
+    display: flex;
+    justify-self: end;
+    justify-content: end;
+}
